@@ -171,7 +171,7 @@ function Home(props) {
 export async function getServerSideProps() {
   const Airtable = require("airtable");
   const base = new Airtable({ apiKey: process.env.COOL_SITES }).base(
-    process.env.AIRTABLE_BASE_ID
+    process.env.appLJdDRT9kPihSZN
   );
   const table = base("Cool sites");
   let records = await table
