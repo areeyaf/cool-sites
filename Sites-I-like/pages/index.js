@@ -57,12 +57,6 @@ function Home(props) {
                 </h2>
                 <h1>Contact</h1>
                 <hr></hr>
-                <h2>
-                  If you want to chat, or have your featured site removed,
-                  I&apos;m available on{" "}
-                  <a href="https://twitter.com/_yihui">Twitter</a> or via email
-                  at yyihui.hu @ gmail.com.
-                </h2>
               </motion.div>
             )}
           </AnimatePresence>
